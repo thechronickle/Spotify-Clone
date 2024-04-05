@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src= "Logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="SongList">
+        <h1> Sad Beat Songs</h1>
+        <div class="songItemcontainer">
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> Late Night Vibe</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> I Always Wanna Die</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> No Surprises</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> fool for you</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> the 1</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> Apocalypse</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1" >
+                <span class="songName"> Space Song</span>
+                <span class="songlistplay"><span class= "timestamp">03:32 <i class="fa-solid songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+        </div>
+    </div>
+        <div class="SongBanner"></div>
+        </div>
+        
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-2x fa-solid fa-backward-step"></i>
+            <i class="fa-2x fa-solid fa-play-circle" id="masterPlay"></i>
+            <i class="fa-2x fa-solid fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="effect.gif" width="42px" alt="" id="gif"> Late Night Vibe - Rude Boy
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/167e3d64da.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
